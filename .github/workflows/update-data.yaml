@@ -29,13 +29,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Data generating script
-        uses: actions/upload-artifact@v3
-        with:
-          # You can change the artifact name to whatever you want here
-          name: Data_Name
-          # You can change the path to whatever your file is called here want here
-          path: output/test_file.json
-          retention-days: 1
+        # uses: actions/upload-artifact@v3
+        # with:
+        #   # You can change the artifact name to whatever you want here
+        #   name: Data_Name
+        #   # You can change the path to whatever your file is called here want here
+        #   path: output/test_file.json
+        #   retention-days: 1
         # This is an example of a command that can be used to run a script, but it can be changed according to needs
         run: |
           python main.py
