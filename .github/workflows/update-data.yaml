@@ -48,3 +48,4 @@ jobs:
           aws_secret_access_key: ${{ env.S3_ACCESS_KEY }}
           aws_bucket: ${{ env.S3_BUCKET_NAME }}
           source_dir: output
+          destination_dir: ""
