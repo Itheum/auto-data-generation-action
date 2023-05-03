@@ -41,7 +41,7 @@ jobs:
           python main.py
 
       - name: Upload data to S3
-        uses: shallwefootball/23-upload-action@master
+        uses: shallwefootball/s3-upload-action@master
         id: S3
         with:
           aws_access_key_id: ${{ env.S3_KEY_ID }}
