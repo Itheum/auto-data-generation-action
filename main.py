@@ -1,6 +1,6 @@
 import json
 
-test_json = {"test1": "test1"}
+test_json = {"test2": "test2"}
 
 output_file = open("output/test_file.json", "a")
 output_file.truncate(0)
