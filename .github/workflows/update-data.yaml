@@ -32,7 +32,7 @@ jobs:
           python main.py
 
       - name: Upload data to S3
-        uses: itheum/s3-upload-action@master
+        uses: Itheum/s3-upload-action@master
         id: S3
         with:
           aws_key_id: ${{ env.S3_KEY_ID }}
