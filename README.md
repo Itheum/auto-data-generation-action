@@ -45,6 +45,8 @@ After this third command, follow the steps to login to your GitHub account.
 
 ### B. Creating an AWS S3 bucket
 
+Note: You can jump over this step if you already have an AWS S3 bucket.
+
 1. Go to [AWS S3](https://aws.amazon.com/) and click on "Sign in to the Console" on the top right corner of the page. If you are not logged in, you will be asked to log in with your AWS account.
 
 2. Once logged in to the AWS Console, use the search bar to search for "S3" and click on the first result. Once on the S3 page, click on "Create bucket".
