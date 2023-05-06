@@ -69,9 +69,9 @@ This will clone the repository to your local machine.
 
 4. We will have to create three secrets that will be used inside of our GitHub Action. We are using them as secrets instead of directly in the code in order to keep these variables private from the public. Click on "New repository secret" and create the following secrets:
 
-- Name: SC_BUCKET_NAME, Secret: the name of the AWS S3 bucket you created in the previous step (if you don't remember it, you can find it by going to your account's AWS S3 page)
-- Name: SC_KEY_ID, Secret: the AWS Access Key ID of your AWS account. You can generate one by clicking on your account name on the right top corner in AWS and then clicking on security credentials. Then, go to access keys and click "Create access key". After accepting the prompt and click again on "Create access key", your key will be created. The characters under "Access key" is your key ID. You have a button that you can use to copy it. Don't close this page after that, we will also need the secret access key for the next secret.
-- Name: SC_ACCESS_KEY, Secret: the Secret access key coresponding to your AWS Access Key ID. You can find it in the same page as the previous secret.
+- Name: S3_BUCKET_NAME, Secret: the name of the AWS S3 bucket you created in the previous step (if you don't remember it, you can find it by going to your account's AWS S3 page)
+- Name: S3_KEY_ID, Secret: the AWS Access Key ID of your AWS account. You can generate one by clicking on your account name on the right top corner in AWS and then clicking on security credentials. Then, go to access keys and click "Create access key". After accepting the prompt and click again on "Create access key", your key will be created. The characters under "Access key" is your key ID. You have a button that you can use to copy it. Don't close this page after that, we will also need the secret access key for the next secret.
+- Name: S3_ACCESS_KEY, Secret: the Secret access key coresponding to your AWS Access Key ID. You can find it in the same page as the previous secret.
 
 ### D. Adjusting your script to the template & getting it to GitHub
 
