@@ -20,6 +20,8 @@ This is done by using a GitHub Action that runs the Data Provider's Python scrip
 
 - Git installed locally; you can get it [here](https://git-scm.com/downloads)
 
+- GitHub CLI installed locally; you can get it [here](https://cli.github.com/)
+
 - A Python script that outputs its results to a file (or multiple ones)
 
 ## How to use
@@ -38,7 +40,7 @@ Open a terminal (command line interface). Use this series of commands:
 ```
 
 ```
-    gh auto login
+    gh auth login
 ```
 
 After this third command, follow the steps to login to your GitHub account.
