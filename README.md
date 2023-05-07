@@ -108,3 +108,7 @@ You can customize by changing the update-data.yaml file inside of the .github/wo
 ## Contributing
 
 Feel free the contact the development team if you wish to contribute or if you have any questions. If you find any issues, please report them in the Issues sections of the repository. You can also create your own pull requests which will be analyzed by the team.
+
+## Disclaimer
+
+This open-source SOFTWARE PRODUCT is provided by THE PROVIDER "as is" and "with all faults." THE PROVIDER makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this SOFTWARE PRODUCT. There are inherent dangers in the use of any software, and you are solely responsible for determining whether this SOFTWARE PRODUCT is compatible for your needs. You are also solely responsible for the protection of your equipment, your private credentials (e.g AWS account Key and Secret, GitHub access credentials etc.) and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing this SOFTWARE PRODUCT.
