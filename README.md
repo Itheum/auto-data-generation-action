@@ -55,6 +55,26 @@ Note: You can jump over this step if you already have an AWS S3 bucket.
 
 3. Select a name for your bucket and choose a preffered region for its hosting. For the "Object ownership" option choose ACLs enabled. For "Block Public Access settings for this bucket" make sure all the checkboxes are UNchecked (except for the one asking you to acknowledge that these settings might result in this bucket becoming public). You can let the other options as default. Click on "Create bucket". Note: AWS S3 is (at the time of writing this guide) offering a free tier that allows you to store up to 5GB of data for free for 12 months. If you need more storage, you can set up a custom billing plan. You can find out more about AWS Free Tier [here](https://aws.amazon.com/free/) and about AWS pricing [here](https://aws.amazon.com/s3/pricing/).
 
+4. In your bucket's menu, go to permissions and scroll down until you see "Cross-origin resource sharing (CORS)". Click on "Edit" and paste the following text there:
+```
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": [
+            "Access-Control-Allow-Origin"
+        ]
+    }
+]
+```
+
 ### C. Creating a GitHub repository & preparing it for usage
 
 1. Go on GitHub and create a new repository under your desired account using this template (click on the green "Use this template" button on the top right corner of [this page](https://github.com/Itheum/auto-data-generation-action)). Select a name for your repository, decide whether you want your repository to be public or private and click on "Create repository from template". Wait a few seconds for your repository to be generated
